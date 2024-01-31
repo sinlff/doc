@@ -1,0 +1,12 @@
+mybatis pro插件
+boot插件
+测试环境日志
+
+-Xms256m
+-Xmx2048m
+
+-XX:MetaspaceSize=150m
+-XX:MaxMetaspaceSize=500m
+-XX:MaxDirectMemorySize=256m
+-Xverify:none
+-server
