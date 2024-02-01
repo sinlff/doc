@@ -2,19 +2,19 @@ mybatis pro插件
 boot插件
 测试环境日志
 
+IDEA_JDK_64=C:\soft\jdk\jdk21.0.2
 -Xms256m
 -Xmx2048m
 -Xverify:none
--XX:MetaspaceSize=200m
+-server
+-XxxxX:MetaspaceSize=200m
 -XX:MaxMetaspaceSize=500m
 -XX:MaxDirectMemorySize=256m
+-XX:InitialCodeCacheSize=128m
 -XX:ReservedCodeCacheSize=512m
--XX:+UseG1GC
 -XX:ErrorFile=$USER_HOME/java_error_in_idea_%p.log
 -XX:HeapDumpPath=$USER_HOME/java_error_in_idea.hprof
 
--XX:SoftRefLRUPolicyMSPerMB=50
--XX:CICompilerCount=2
 -XX:+HeapDumpOnOutOfMemoryError
 -XX:-OmitStackTraceInFastThrow
 -XX:+IgnoreUnrecognizedVMOptions
@@ -27,3 +27,18 @@ boot插件
 -Djdk.attach.allowAttachSelf=true
 -Djdk.module.illegalAccess.silent=true
 -Dkotlinx.coroutines.debug=off
+
+-XX:+UnlockExperimentalVMOptions
+-XX:+UseZGC
+#-XX:+UseG1GC
+#-XX:G1HeapRegionSize=32M
+#-XX:MaxGCPauseMillis=200
+-XX:ParallelGCThreads=2
+-XX:ConcGCThreads=2
+-XX:CICompilerCount=2
+-XX:+TieredCompilation
+-XX:TieredStopAtLevel=4
+-XX:Tier4MinInvocationThreshold=100
+-XX:Tier4InvocationThreshold=100
+-XX:Tier4CompileThreshold=100
+-XX:MaxInlineLevel=15
