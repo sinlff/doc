@@ -1,0 +1,5 @@
+安装2个jrebel插件
+激活mybatis pro插件
+物理删除free mybatis插件
+核对JVM 4层编译参数
+启用idea2023.3.3, 及其ZGC, 去掉G1收集器

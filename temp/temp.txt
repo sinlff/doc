@@ -2,7 +2,7 @@ mybatis pro插件
 boot插件
 测试环境日志
 
-IDEA_JDK_64=C:\soft\jdk\jdk21.0.2
+#IDEA_JDK_64=C:\soft\jdk\jdk21.0.2
 -Xms256m
 -Xmx2048m
 -Xverify:none
