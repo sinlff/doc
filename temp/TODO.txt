@@ -17,13 +17,15 @@
         http://y.dk.la/cw.html
         http://y.dk.la/jhcl.html
     设置-修改启动器配置为更新类和资源on update class resources
-    -javaagent:C:\soft\idea2023.3.3\xrebel\xrebel.jar
+    微服务加启动参数-javaagent:C:\soft\idea2023.3.3\xrebel\xrebel.jar
+    启动后访问   http://localhost:8080/xrebel
+            http://127.0.0.1:8888/9e6feffd-3c4c-4ce2-95b7-f97aa0f323cd
+            181675284@qq.com
     官方使用指南 https://www.jrebel.com/products/jrebel/quickstart/intellij#server-configuration?ide=intellij&
 3 写3篇文章
     自定义启动类, 包扫描, yml文件
     自定义Mapper单元测试
     根据环境和开关配置sql自动填充?参数的值
-
 其它激活办法
     https://www.cnblogs.com/lcaiqin/p/17713843.html
         代理JRbel.zip
