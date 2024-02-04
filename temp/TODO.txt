@@ -26,6 +26,9 @@
     自定义启动类, 包扫描, yml文件
     自定义Mapper单元测试
     根据环境和开关配置sql自动填充?参数的值
+4 日志抛出异常后, 点击能跳转到代码处
+5 日志打印格式调整
+
 其它激活办法
     https://www.cnblogs.com/lcaiqin/p/17713843.html
         代理JRbel.zip
