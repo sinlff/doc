@@ -16,6 +16,7 @@
     激活失败参考网址
         http://y.dk.la/cw.html
         http://y.dk.la/jhcl.html
+    设置-修改启动器配置为更新类和资源on update class resources
 3 写3篇文章
     自定义启动类, 包扫描, yml文件
     自定义Mapper单元测试
