@@ -1,5 +1,5 @@
-安装2个jrebel插件
-激活mybatis pro插件
-物理删除free mybatis插件
-核对JVM 4层编译参数
+激活rebel插件 https://www.cnblogs.com/lcaiqin/p/17713843.html
+激活XRebel插件 https://www.cnblogs.com/lannntuuu/p/17458804.html
+             https://www.jrebel.com/success/products/xrebel/download?r=561
+             -javaagent:[/path/to/]xrebel.jar
 启用idea2023.3.3, 及其ZGC, 去掉G1收集器
