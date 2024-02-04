@@ -1,5 +1,28 @@
-激活rebel插件 https://www.cnblogs.com/lcaiqin/p/17713843.html
+1 插件RestfulTool代替RestfulToolkit-fix
+
+2 提取地址
+    激活之前
+        删除文件 C:\Users\wsw\.jrebel(不能删完,则关闭IDE)
+    下载地址
+        http://code.jrebel.cn
+        提取码
+        7432801272
+        (平常自助提取授权 后期失效从新提取激活即可. 有错误看提取页面错误处理方法,解決不了在找我)
+        提取后的购买真正地址
+        http://code.jrebel.cn/key.php?key=7432801272
+        VPN报错则修改DNS8.8.8.8或者自动获取DNS
+        破解成功后的使用指南
+        https://www.jrebel.com/products/jrebel/quickstart/intellij#server-configuration?ide=intellij&
+    激活失败参考网址
+        http://y.dk.la/cw.html
+        http://y.dk.la/jhcl.html
+3 写3篇文章
+    自定义启动类, 包扫描, yml文件
+    自定义Mapper单元测试
+    根据环境和开关配置sql自动填充?参数的值
+
+其它版激活办法:
+    激活rebel插件 https://www.cnblogs.com/lcaiqin/p/17713843.html
 激活XRebel插件 https://www.cnblogs.com/lannntuuu/p/17458804.html
              https://www.jrebel.com/success/products/xrebel/download?r=561
              -javaagent:[/path/to/]xrebel.jar
-启用idea2023.3.3, 及其ZGC, 去掉G1收集器
