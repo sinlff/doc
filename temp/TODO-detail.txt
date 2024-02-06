@@ -1,14 +1,25 @@
-wing发hub-manager
+破解jrebel
+    https://n6n0paziew.feishu.cn/docx/Cor6dPu1hoIvHkxMFLFciV0gnkg
+    重要：激活成功以后记得设置离线模式 如果遇到问题请及时联系客服
+    github下载 jrebel.jar
+    java -jar jrebel.jar -p 8081
+    命令行复制,或者 http://localhost:8081/46519dd6-7735-4e1e-a078-70b1a13c6c7c
+    输入激活URL+    181675284@qq.com
+    关闭离线模式
+    错误解决方案: 删除.jrebel, 删除.xrebel
+    -javaagent:C:\soft\idea2023.3.3\xrebel\xrebel.jar
 
-进入过滤器时判断开关再算开始时间
-insert和update开关决定美化
-try cache保护逻辑
-开关设计
-insert update答打印做开关
-对比旧的三条SQL
-在线文档记录管理员登录失败事项
-
-购买jrebel
+关闭alibaba, translate插件, 关闭3个ai插件, 关闭Code coverage, 4个部署插件, 3个html插件, 模版引擎, testNG, javascript15个, javaFX
+IDEA_JDK_64环境变量和vm参数注释
+IDEA 增加metaspace, 增加xms
+try catch打印controller, try catch拦截
+mybatis拦截器支持2次,prepare内部拦截器
+记录zhongdian.txt BBQ
 spring startup analyzer
 
-总结for文档
+写文章:
+IDEA性能优化: JDK, IDE, JVM, META SIZE, 插件禁用, 关闭代码检查, 关闭File -> Settings -> Editor -> Inspections -> Duplicated code fragment
+traceId costTime
+sql问号填充参数:对比旧的三条SQL
+在线文档记录管理员登录失败事项
+spring startup analyzer
