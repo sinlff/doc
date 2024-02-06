@@ -1,5 +1,4 @@
 1 插件RestfulTool代替RestfulToolkit-fix
-
 2 提取地址
     激活之前
         删除文件 C:\Users\wsw\.jrebel(不能删完,则关闭IDE)
@@ -25,7 +24,8 @@
 3 写3篇文章
     自定义启动类, 包扫描, yml文件
     自定义Mapper单元测试
-    根据环境和开关配置sql自动填充?参数的值
+    spring startup analyzer
+    日志文件本机from异常代码跳转
 4 日志抛出异常后, 点击能跳转到代码处, 日志打印格式调整  logback-spring.xml已上传
 
 5 mybatisPro使用指南 https://brucege.com/doc/#/sqlLog
