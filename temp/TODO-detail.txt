@@ -1,10 +1,11 @@
-破解jrebel
+IDEA性能优化: JDK, IDE, JVM, META SIZE, 插件禁用, 关闭代码检查, 关闭File -> Settings -> Editor -> Inspections -> 全部
+离线jrebel
     https://n6n0paziew.feishu.cn/docx/Cor6dPu1hoIvHkxMFLFciV0gnkg
     重要：激活成功以后记得设置离线模式 如果遇到问题请及时联系客服
     github下载 jrebel.jar
     java -jar jrebel.jar -p 8081
-    命令行复制,或者 http://localhost:8081/46519dd6-7735-4e1e-a078-70b1a13c6c7c
-    输入激活URL+    181675284@qq.com
+    命令行复制,或者   http://localhost:8081/46519dd6-7735-4e1e-a078-70b1a13c6c7c
+    输入激活URL+     181675284@qq.com
     关闭离线模式
     错误解决方案: 删除.jrebel, 删除.xrebel
     -javaagent:C:\soft\idea2023.3.3\xrebel\xrebel.jar
@@ -22,8 +23,47 @@ mybatis拦截器支持2次,prepare内部拦截器
 spring startup analyzer
 
 写文章:
-IDEA性能优化: JDK, IDE, JVM, META SIZE, 插件禁用, 关闭代码检查, 关闭File -> Settings -> Editor -> Inspections -> Duplicated code fragment
+IDEA性能优化: JDK, IDE, JVM, META SIZE, 插件禁用, 关闭代码检查, 关闭File -> Settings -> Editor -> Inspections -> 全部
 traceId costTime
 sql问号填充参数:对比旧的三条SQL
 在线文档记录管理员登录失败事项
 spring startup analyzer
+
+
+-Xms1024m
+-Xmx2048m
+-Xverify:none
+-server
+-XX:MetaspaceSize=512m
+-XX:MaxMetaspaceSize=512m
+-XX:ReservedCodeCacheSize=512m
+-XX:ErrorFile=$USER_HOME/java_error_in_idea_%p.log
+-XX:HeapDumpPath=$USER_HOME/java_error_in_idea.hprof
+
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-OmitStackTraceInFastThrow
+-XX:+IgnoreUnrecognizedVMOptions
+-XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend
+-ea
+-Dsun.io.useCanonCaches=false
+-Dsun.java2d.metal=true
+-Djbr.catch.SIGABRT=true
+-Djdk.http.auth.tunneling.disabledSchemes=""
+-Djdk.attach.allowAttachSelf=true
+-Djdk.module.illegalAccess.silent=true
+-Dkotlinx.coroutines.debug=off
+
+-XX:+UnlockExperimentalVMOptions
+#-XX:+UseZGC
+#-XX:+UseG1GC
+#-XX:G1HeapRegionSize=32M
+#-XX:MaxGCPauseMillis=200
+#-XX:ParallelGCThreads=2
+#-XX:ConcGCThreads=2
+-XX:CICompilerCount=2
+#-XX:+TieredCompilation
+#-XX:TieredStopAtLevel=4
+#-XX:Tier4MinInvocationThreshold=100
+#-XX:Tier4InvocationThreshold=100
+#-XX:Tier4CompileThreshold=100
+#-XX:MaxInlineLevel=15
