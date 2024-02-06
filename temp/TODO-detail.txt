@@ -3,6 +3,7 @@ IDEA性能优化: JDK, IDE, JVM, META SIZE, 插件禁用, 关闭代码检查, �
     https://n6n0paziew.feishu.cn/docx/Cor6dPu1hoIvHkxMFLFciV0gnkg
     重要：激活成功以后记得设置离线模式 如果遇到问题请及时联系客服
     github下载 jrebel.jar
+    C:\soft\idea2023.3.3
     java -jar jrebel.jar -p 8081
     命令行复制,或者   http://localhost:8081/46519dd6-7735-4e1e-a078-70b1a13c6c7c
     输入激活URL+     181675284@qq.com
@@ -11,6 +12,7 @@ IDEA性能优化: JDK, IDE, JVM, META SIZE, 插件禁用, 关闭代码检查, �
     -javaagent:C:\soft\idea2023.3.3\xrebel\xrebel.jar
     http://localhost:8100/xrebel
 安装h2 db
+    C盘建立空文件 C:\Users\wsw\test.mv.db
     Path ~/test.mv.db
     sa
     URL jdbc:h2:~/test
