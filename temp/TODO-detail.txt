@@ -8,6 +8,7 @@
     关闭离线模式
     错误解决方案: 删除.jrebel, 删除.xrebel
     -javaagent:C:\soft\idea2023.3.3\xrebel\xrebel.jar
+    http://localhost:8100/xrebel
 安装h2 db
     Path ~/test.mv.db
     sa
