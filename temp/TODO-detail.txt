@@ -8,7 +8,10 @@
     关闭离线模式
     错误解决方案: 删除.jrebel, 删除.xrebel
     -javaagent:C:\soft\idea2023.3.3\xrebel\xrebel.jar
-
+安装h2 db
+    Path ~/test.mv.db
+    sa
+    URL jdbc:h2:~/test
 关闭alibaba, translate插件, 关闭3个ai插件, 关闭Code coverage, 4个部署插件, 3个html插件, 模版引擎, testNG, javascript15个, javaFX
 IDEA_JDK_64环境变量和vm参数注释
 IDEA 增加metaspace, 增加xms
