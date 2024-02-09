@@ -1,0 +1,12 @@
+离线jrebel
+    https://n6n0paziew.feishu.cn/docx/Cor6dPu1hoIvHkxMFLFciV0gnkg
+    重要：激活成功以后记得设置离线模式 如果遇到问题请及时联系客服
+    github下载 jrebel.jar
+    C:\soft\idea2023.3.3
+    java -jar jrebel.jar -p 8081
+    命令行复制,或者   http://localhost:8081/46519dd6-7735-4e1e-a078-70b1a13c6c7c
+    输入激活URL+     181675284@qq.com
+    关闭离线模式
+    错误解决方案: 删除.jrebel, 删除.xrebel
+    -javaagent:C:\soft\idea2023.3.3\xrebel\xrebel.jar
+    http://localhost:8100/xrebel

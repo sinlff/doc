@@ -1,0 +1,38 @@
+1 插件RestfulTool代替RestfulToolkit-fix
+2 提取地址
+    激活之前
+        删除文件 C:\Users\wsw\.jrebel(不能删完,则关闭IDE)
+    下载地址
+        http://code.jrebel.cn
+        提取码
+        7432801272
+        (平常自助提取授权 后期失效从新提取激活即可. 有错误看提取页面错误处理方法,解決不了在找我)
+        提取后的购买真正地址
+        http://code.jrebel.cn/key.php?key=7432801272
+        VPN报错则修改DNS8.8.8.8或者自动获取DNS
+        破解成功后的使用指南
+        https://www.jrebel.com/products/jrebel/quickstart/intellij#server-configuration?ide=intellij&
+    激活失败参考网址
+        http://y.dk.la/cw.html
+        http://y.dk.la/jhcl.html
+    设置-修改启动器配置为更新类和资源on update class resources
+    微服务加启动参数-javaagent:C:\soft\idea2023.3.3\xrebel\xrebel.jar
+    启动后访问   http://localhost:8080/xrebel
+            http://127.0.0.1:8888/9e6feffd-3c4c-4ce2-95b7-f97aa0f323cd
+            181675284@qq.com
+    官方使用指南 https://www.jrebel.com/products/jrebel/quickstart/intellij#server-configuration?ide=intellij&
+3 写3篇文章
+    自定义启动类, 包扫描, yml文件
+    自定义Mapper单元测试
+    spring startup analyzer
+    日志文件本机from异常代码跳转
+4 日志抛出异常后, 点击能跳转到代码处, 日志打印格式调整  logback-spring.xml已上传
+
+5 mybatisPro使用指南 https://brucege.com/doc/#/sqlLog
+
+其它激活办法
+    https://www.cnblogs.com/lcaiqin/p/17713843.html
+        代理JRbel.zip
+        https://www.guidgen.com/
+            http://127.0.0.1:8888/9e6feffd-3c4c-4ce2-95b7-f97aa0f323cd
+            181675284@qq.com
