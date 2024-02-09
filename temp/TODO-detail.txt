@@ -10,7 +10,7 @@ spring startup analyzer
 记录纸质笔记本重要事项
 
 写文章:
-IDEA性能优化: JDK, IDE, JVM, META SIZE, 插件禁用, 关闭代码检查, 关闭File -> Settings -> Editor -> Inspections -> 全部
+IDEA性能优化: -Xverify:none JDK, IDE, JVM, META SIZE, 插件禁用, 关闭代码检查, 关闭File -> Settings -> Editor -> Inspections -> 全部
 traceId costTime
 sql问号填充参数:对比旧的三条SQL
 在线文档记录管理员登录失败事项
