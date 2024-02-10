@@ -1,10 +1,16 @@
-https://github.com/linyimin0812/spring-startup-analyzer/releases/
+IDEA增加-XX:MaxMetaspaceSize=768m -XX:+UseG1GC
+https://github.com/linyimin0812/spring-boot-async-bean-demo/tree/main/src/main/resources
+    异步bean demo,https://github.com/linyimin0812/spring-startup-analyzer/releases/
+    bean-names: userController,loggerService,userMapper
+    C:\Users\wsw\spring-startup-analyzer\logs
+    sofa boot加速启动 https://heapdump.cn/article/4136322
+    boot启动jar index https://heapdump.cn/article/4136322
 安装h2 db
     C盘建立空文件 C:\Users\wsw\test.mv.db
     Path ~/test.mv.db
     sa
     URL jdbc:h2:~/test
-try catch打印controller, try catch拦截
+接口日志打印两次?
 mybatis拦截器支持2次,prepare内部拦截器
 测试service,mapper是否jrebel
 异步bean配置
