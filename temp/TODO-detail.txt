@@ -1,8 +1,10 @@
+bean的构造方法,都增加isDebug默认值true属性
 设置logback密码
 设置允许haki数据库刷新,
 验证eureka刷新
 跟进优雅停机
 每个代付微服务都要测试开关属性,
+异步bean验证pay server
 研究多活技术
 
 IDEA增加-XX:MaxMetaspaceSize=768m -XX:+UseG1GC
