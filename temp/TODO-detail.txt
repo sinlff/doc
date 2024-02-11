@@ -1,3 +1,10 @@
+设置logback密码
+设置允许haki数据库刷新,
+验证eureka刷新
+跟进优雅停机
+每个代付微服务都要测试开关属性,
+研究多活技术
+
 IDEA增加-XX:MaxMetaspaceSize=768m -XX:+UseG1GC
 https://github.com/linyimin0812/spring-boot-async-bean-demo/tree/main/src/main/resources
     异步bean demo,https://github.com/linyimin0812/spring-startup-analyzer/releases/
