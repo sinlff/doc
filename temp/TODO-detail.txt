@@ -4,6 +4,7 @@
 跟进优雅停机
 每个代付微服务都要测试开关属性
 异步bean验证pay server
+idea风格替换2023版? 备份文件
 研究多活技术
 
 IDEA增加-XX:MaxMetaspaceSize=768m -XX:+UseG1GC
