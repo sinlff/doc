@@ -1,3 +1,4 @@
+controller支持类名搜索
 其它已发工程替换trace拦截器类,替换logback控制器的Runtime异常
 发api-server mock设置全局拦截器
 验证eureka刷新
