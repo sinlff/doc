@@ -1,9 +1,8 @@
-bean的构造方法,都增加isDebug默认值true属性
-设置logback密码
-设置允许haki数据库刷新,
+其它已发工程替换trace拦截器类,替换logback控制器的Runtime异常
+发api-server mock设置全局拦截器
 验证eureka刷新
 跟进优雅停机
-每个代付微服务都要测试开关属性,
+每个代付微服务都要测试开关属性
 异步bean验证pay server
 研究多活技术
 
