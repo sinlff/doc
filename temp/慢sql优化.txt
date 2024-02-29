@@ -1,3 +1,7 @@
+tidb
+server1 server2 server3
+tikv node1 tikv node2 tikv node3    range分片(region)
+
 tidb sql引擎
 SQL
 AST
@@ -9,6 +13,8 @@ cost model
 
 explain
 hash join index reader table scan
+
+主键替代createTime排序
 
 “LIKE”和“OR”的条件语句中，利用索引提高查询效率
     LIKE‘%aa’和WHERE字段 LIKE ‘%aa%’都不能使用索引，但是通配符在后面的筛选条件
