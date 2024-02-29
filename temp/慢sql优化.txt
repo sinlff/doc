@@ -14,6 +14,8 @@ cost model
 explain
 hash join index reader table scan
 
+回表覆盖索引
+
 主键替代createTime排序
 
 “LIKE”和“OR”的条件语句中，利用索引提高查询效率
