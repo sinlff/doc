@@ -1,0 +1,51 @@
+tidb sql引擎
+SQL
+AST
+逻辑计划
+优化计划
+统计(表,索引,列数据的分布)
+cost model
+物理计划
+
+explain
+hash join index reader table scan
+
+“LIKE”和“OR”的条件语句中，利用索引提高查询效率
+    LIKE‘%aa’和WHERE字段 LIKE ‘%aa%’都不能使用索引，但是通配符在后面的筛选条件
+    只有当条件语句中只有关键字“OR”，并且“OR”前后的表达式中的字段都建有索引的时候，查询才能用到索引。
+
+UNION ALL代替UNION
+
+EXISTS 代替 IN 查询
+
+字符集转换 密码设置表,字段字符集
+
+单表查询,避免大量关联表查询。减少数据库 Join 查询可以有效提高性能。
+
+类型匹配, 字符串入参,整数字段
+
+
+
+深分页
+    job
+
+批量插入 insert values(xx,yy,zz)()()()
+    insert(集合)
+    IService.saveBatch(集合)/InsertBatchSomeColumn
+
+分布式ID
+    美团leaf(数据库表批量/zookeeper)
+
+批量更新
+ <update id="updateBatch" parameterType="java.util.List">
+     <foreach collection="list" item="item" index="index" open="begin" close="end;" >                            update xxx set x=#{item.x,jdbcType=VARCHAR} where x =#{item.x,jdbcType=VARCHAR};       </foreach>
+ </update>
+
+sql语句压缩
+    拦截器处理
+
+尽可能使用#{}，而不是${}
+    预编译,防止sql注入,调整预编译缓存数量
+
+jdbcType
+    #{recid,jdbcType=DECIMAL}
